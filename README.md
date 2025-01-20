@@ -13,7 +13,7 @@ Catenary_2D(L, dx, dz) creates a catenary curve on x-z plan, placing the referen
 | dz | The vertical distance of the 2 mounting points |
 
 Catenary_3D
-Catenary_3D(x1,y1,z1,f) generalizes the catenary created by Catenary_2d into three-dimensional space. This is why the position of the reference mounting point is needed as well as the rotation of the curve around the z-axis.
+Catenary_3D(x1,y1,z1,f) geseneralizes the catenary created by Catenary_2d into three-dimensional space. This is why the position of the reference mounting point is needed as well as the rotation of the curve around the z-axis.
 
 | Variable | Description |
 | --- | --- |
