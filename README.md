@@ -33,12 +33,12 @@ Catenary_3D(x1,y1,z1,f) generalizes the catenary created by Catenary_2d into thr
 ## Catenary_2D
 The method is a little bit different than the one used for determining parameters [here](https://en.wikipedia.org/wiki/Catenary#Determining_parameters).
 
-$$f(x) = \alpha \cdot \cosh{\left(\frac{x}{\alpha} \right)}$$
+$$f(x) =  a  \cdot \cosh{\left(\frac{x}{ a } \right)}$$
 
 However, this solution assumes that the curve is in a standing position with its lowest point above x = 0.
 In order to allow for the catenary to be centered at any point, its equation is written as
 
-$$f(x) = \alpha \cdot \cosh{ \left( \frac{x-b}{\alpha} \right) } + c$$
+$$f(x) =  a  \cdot \cosh{ \left( \frac{x-b}{ a } \right) } + c$$
 
 where $b$ is the center of the curve and $c$ is the vertical offset from the origin.
 
@@ -46,13 +46,13 @@ By letting $r = \frac{\sqrt{L^2 - {dz}^2}}{dx}$, the problem can been transforme
 
 $$r = \frac{\sinh{\left( A \right)}}{A}$$
 
-Then, the three parameters $\alpha$, $b$ and $c$ can be calculated as follows.
+Then, the three parameters $a$, $b$ and $c$ can be calculated as follows.
 
-$$\alpha = \frac{dx}{2\cdot A}$$
+$$ a  = \frac{dx}{2\cdot A}$$
 
-$$b = \overline{x} - \alpha \cdot \tanh{\left( \frac{dz}{L} \right)}$$
+$$b = \overline{x} -  a  \cdot \tanh{\left( \frac{dz}{L} \right)}$$
 
-$$c = z_1 - \alpha \cdot \cosh{ \left( \frac{x_1 -b}{\alpha} \right) }$$
+$$c = z_1 -  a  \cdot \cosh{ \left( \frac{x_1 -b}{a} \right) }$$
 
 where $\overline{x} = \frac{x_1 + x_2}{2}$. Note that in Catenary_2D(), the reference mounting point is placed at (0,0), meaning that $x1,z1 = 0$. For a more described analysis check the Acknowledgement section below.
 
