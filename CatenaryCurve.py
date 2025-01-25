@@ -15,16 +15,16 @@ import sys
 #The Catenary_3D function generalizes the curve created
 #by Catenary_2D into three-dimensional space.
 
-#x1: Reference mounting point's position on x-axis
-#y1: Reference mounting point's position on y-axis
-#z1: Reference mounting point's position on z-axis
-# f: Rotation of the curve on around z-axis in radians
+#x1: Reference mounting point's position on x-axis.
+#y1: Reference mounting point's position on y-axis.
+#z1: Reference mounting point's position on z-axis.
+# f: Rotation of the curve around z-axis in radians.
 
 
 class Catenary:
-    def __init__(self, L, Number_of_points):
-        self.Num = Number_of_points #Number of points on the curve
-        self.L = 1.5
+    def __init__(self, L, Num):
+        self.Num = Num #Number of points on the curve
+        self.L = L
         
     def Catenary_2D(self, dx, dz):
         global x, z
