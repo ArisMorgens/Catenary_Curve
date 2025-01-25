@@ -61,7 +61,7 @@ $$b = \overline{x} -  a  \cdot \tanh{\left( \frac{dz}{L} \right)}$$
 
 $$c = z_1 -  a  \cdot \cosh{ \left( \frac{x_1 -b}{a} \right) }$$
 
-where $dx=x_2-x_1,~ dz=z_2-z_1,~ \overline{x} = \frac{x_1 + x_2}{2}$. Note that in Catenary_2D(), the reference mounting point is placed at (0,0). 
+where $dx=x_2-x_1,~ dz=z_2-z_1,~ \overline{x} = \frac{x_1 + x_2}{2}$. Note that in Catenary_2D, the reference mounting point is placed at (0,0). 
 For a more described analysis check the Acknowledgement section below.
 
 
