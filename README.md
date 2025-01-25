@@ -8,13 +8,19 @@ Catenary_2D output | Catenary_3D output
 :---------------------------------:|:---------------------------------:
 ![](Images/Catenary2D_example.png) | ![](Images/Catenary3D_example.png)
 
+# Class
+## Catenary
+| Variable | Description |
+| :---: | :--- |
+| L | The length of the rope |
+| Num | The number of points on the curve |
+
 # Functions
 ## Catenary_2D
 Catenary_2D(L, dx, dz) creates a catenary curve on x-z plan, placing the reference mounting point on (0,0).
 
 | Variable | Description |
 | :---: | :--- |
-| L | The length of the rope |
 | dx | The horizontal distance between the 2 mounting points |
 | dz | The vertical distance between the 2 mounting points |
 
