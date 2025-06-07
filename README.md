@@ -98,3 +98,4 @@ The curve is always laying on the plane perpendicular to the ground formed by th
 where $\psi$ is the rotation angle around the z-axis.
 # Acknowledgement
 
+- [Diploma thesis (p.35-48)](https://nemertes.library.upatras.gr/server/api/core/bitstreams/ed8c738a-69a1-44ee-8974-445f9580b6cd/content)
